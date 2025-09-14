@@ -1,5 +1,6 @@
-import { Leaf, Mail, Phone, MapPin, Github, Twitter, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Twitter, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import yieldXLogo from '@/assets/yield-x-logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,12 +38,14 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="p-2 bg-primary rounded-lg">
-                <Leaf className="h-6 w-6 text-primary-foreground" />
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src={yieldXLogo} 
+                alt="Yield X AI Logo" 
+                className="h-12 w-12 object-contain"
+              />
               <div>
-                <h3 className="text-xl font-bold text-primary">AgriAI</h3>
+                <h3 className="text-xl font-bold text-primary">Yield X AI</h3>
                 <p className="text-xs text-muted-foreground">Smart Farming</p>
               </div>
             </div>
@@ -55,7 +58,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center text-muted-foreground">
                 <Mail className="h-4 w-4 mr-2" />
-                contact@agriai.com
+                contact@yieldxai.com
               </div>
               <div className="flex items-center text-muted-foreground">
                 <Phone className="h-4 w-4 mr-2" />
@@ -164,7 +167,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-sm text-muted-foreground mb-4 md:mb-0">
-              © {currentYear} AgriAI. All rights reserved.
+              © {currentYear} Yield X AI. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

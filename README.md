@@ -1,8 +1,8 @@
-# AgriAI - Smart Crop Recommendation System 🌾
+# Yield X AI - Smart Crop Recommendation System 🌾
 
 A modern web application that uses artificial intelligence to provide personalized crop recommendations based on soil conditions, weather data, and agricultural best practices.
 
-![AgriAI Screenshot](src/assets/hero-image.jpg)
+![Yield X AI Screenshot](src/assets/hero-image.jpg)
 
 ## 🚀 Features
 
@@ -35,7 +35,7 @@ A modern web application that uses artificial intelligence to provide personaliz
 1. Clone the repository:
 ```bash
 git clone <your-repository-url>
-cd agriai-crop-recommendation
+cd yieldx-ai-crop-recommendation
 ```
 
 2. Install dependencies:
@@ -167,8 +167,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@agriai.com or join our Slack community.
+For support, email support@yieldxai.com or join our Slack community.
 
 ---
 
-**AgriAI** - Empowering farmers with artificial intelligence 🌱
+**Yield X AI** - Empowering farmers with artificial intelligence 🌱

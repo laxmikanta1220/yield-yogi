@@ -1,6 +1,7 @@
-import { Leaf, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
+import yieldXLogo from '@/assets/yield-x-logo.png';
 
 interface HeaderProps {
   currentSection: string;
@@ -22,14 +23,16 @@ const Header = ({ currentSection, onSectionChange }: HeaderProps) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div 
-            className="flex items-center space-x-2 cursor-pointer group"
+            className="flex items-center space-x-3 cursor-pointer group"
             onClick={() => onSectionChange('home')}
           >
-            <div className="p-2 bg-primary rounded-lg group-hover:shadow-glow transition-shadow">
-              <Leaf className="h-6 w-6 text-primary-foreground" />
-            </div>
+            <img 
+              src={yieldXLogo} 
+              alt="Yield X AI Logo" 
+              className="h-12 w-12 object-contain group-hover:drop-shadow-lg transition-all duration-200"
+            />
             <div>
-              <h1 className="text-xl font-bold text-primary">AgriAI</h1>
+              <h1 className="text-xl font-bold text-primary">Yield X AI</h1>
               <p className="text-xs text-muted-foreground">Smart Farming</p>
             </div>
           </div>
