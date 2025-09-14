@@ -27,6 +27,14 @@ export default {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -84,6 +92,15 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 6s ease-in-out infinite",
+        "pulse-slow": "pulse 4s ease-in-out infinite",
+        "bounce-soft": "bounce-soft 2s ease-in-out infinite",
+      },
+      boxShadow: {
+        "soft": "var(--shadow-soft)",
+        "medium": "var(--shadow-medium)", 
+        "strong": "var(--shadow-strong)",
+        "glow": "var(--shadow-glow)",
       },
     },
   },
